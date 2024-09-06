@@ -7,8 +7,7 @@ const app = express();
 app.use(express.json());
 
 mongoose.connect(
-  "mongodb+srv://saqeeb3p:saqeeb3p@cluster0.4mfw9fs.mongodb.net/Hospital-Appointment-System"
-);
+
 
 const database = mongoose.connection;
 
